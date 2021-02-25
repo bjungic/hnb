@@ -84,11 +84,10 @@ public class ReadHNB {
                     timer += 360000; //3600000 - 1h; 60000 1min;
                     logger.info("Broj zapisa: " + currencyRepository.countAll());
                 }
-                System.out.println(godina + " --> " + tempTimer / -1000 + "s");
+                logger.info(godina + " --> " + tempTimer / -1000 + "s");
 
             } catch (Exception e) {
-                System.out.println("catch");
-                System.out.println(e.getMessage());
+                logger.warn("Exception: ", e);
                 getGodinaPoGodina();
             }
             godina = godina - 1;
