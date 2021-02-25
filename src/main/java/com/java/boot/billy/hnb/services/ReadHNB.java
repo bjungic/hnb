@@ -13,6 +13,7 @@ import reactor.netty.http.client.HttpClient;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
@@ -53,7 +54,8 @@ public class ReadHNB {
 
         do {
             try {
-                System.out.println(godina);
+                Long tempTimer = Calendar.getInstance().getTimeInMillis();
+//                System.out.println(godina);
                 currency = builder.codecs(configurer -> configurer
                         .defaultCodecs()
                         .maxInMemorySize(16 * 1024 * 1024))
@@ -77,10 +79,12 @@ public class ReadHNB {
                         currencyRepository.save(curr);
                     }
                 }
+                tempTimer = tempTimer - Calendar.getInstance().getTimeInMillis();
                 if (Calendar.getInstance().getTimeInMillis() >= timer) {
                     timer += 360000; //3600000 - 1h; 60000 1min;
                     logger.info("Broj zapisa: " + currencyRepository.countAll());
                 }
+                System.out.println(godina + " --> " + tempTimer / -1000 + "s");
 
             } catch (Exception e) {
                 System.out.println("catch");
