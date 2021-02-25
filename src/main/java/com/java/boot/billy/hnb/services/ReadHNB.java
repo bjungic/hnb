@@ -13,7 +13,6 @@ import reactor.netty.http.client.HttpClient;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
@@ -93,6 +92,8 @@ public class ReadHNB {
             godina = godina - 1;
 
         } while (currency.length > 0);
+
+        logger.info("Ukupno zapisa: " + currencyRepository.countAll());
 
     }
 
