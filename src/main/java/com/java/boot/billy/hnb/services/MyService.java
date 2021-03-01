@@ -28,7 +28,7 @@ public class MyService {
         this.currencyRepository = currencyRepository;
     }
 
-    @Scheduled(cron = "1 * * * * ?")
+    @Scheduled(cron = "0 0 * * * *")
     public void updateCurrencies() {
         try {
             Currency[] currency;
