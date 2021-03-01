@@ -51,11 +51,13 @@ public class MyService {
                 Currency curr = currencyRepository.getCurrency(c.getValuta(), c.getDatum_primjene());
                 if (curr == null) {
                     currencyRepository.save(c);
+                    logger.info("Spremam: " + c.getValuta());
                 } else {
                     curr.setKupovni_tecaj(c.getKupovni_tecaj());
                     curr.setSrednji_tecaj(c.getSrednji_tecaj());
                     curr.setProdajni_tecaj(c.getProdajni_tecaj());
                     currencyRepository.save(curr);
+                    logger.info("Update: " + c.getValuta());
                 }
             }
 
