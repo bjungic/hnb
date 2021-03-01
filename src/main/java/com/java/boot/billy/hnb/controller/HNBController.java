@@ -5,10 +5,7 @@ import com.java.boot.billy.hnb.model.Occurrance;
 import com.java.boot.billy.hnb.services.Logika;
 import com.java.boot.billy.hnb.services.MyService;
 import com.java.boot.billy.hnb.services.ReadHNB;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.sql.Date;
 import java.util.List;
@@ -56,6 +53,12 @@ public class HNBController {
     @GetMapping("update")
     public void update(){
         myService.updateCurrencies();
+    }
+
+    @PutMapping (path = "update?={datum}")
+    public String updateDate(@RequestParam(name = "datum") String datum){
+        myService.updateDate(datum);
+        return "Updated " + datum;
     }
 
 }
