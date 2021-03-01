@@ -51,12 +51,12 @@ public class HNBController {
     }
 
     @GetMapping("update")
-    public void update(){
+    public void update() {
         myService.updateCurrencies();
     }
 
-    @PutMapping (path = "update?={datum}")
-    public String updateDate(@RequestParam(name = "datum") String datum){
+    @PostMapping(path = "updateDan/{datum}")
+    public String updateDate(@PathVariable(name = "datum") String datum) {
         myService.updateDate(datum);
         return "Updated " + datum;
     }

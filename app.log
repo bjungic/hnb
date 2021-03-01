@@ -1,334 +1,84 @@
-2021-02-25 09:27:22.761  INFO 10936 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 10936 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-02-25 09:27:22.767  INFO 10936 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-02-25 09:27:24.861  INFO 10936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-25 09:27:24.861  INFO 10936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-25 09:27:25.099  INFO 10936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-25 09:27:25.377  INFO 10936 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-25 09:27:25.451  INFO 10936 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-25 09:27:25.624  INFO 10936 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-25 09:27:25.777  INFO 10936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-25 09:27:26.073  INFO 10936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-25 09:27:26.103  INFO 10936 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-02-25 09:27:27.507  INFO 10936 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-25 09:27:29.591  INFO 10936 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.513 seconds (JVM running for 8.792)
-2021-02-25 09:27:41.716  INFO 10936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-25 09:36:07.513  INFO 10936 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 152766
-2021-02-25 09:38:10.205  INFO 10936 --- [task-2] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 154976
-2021-02-25 09:38:33.746  INFO 10936 --- [task-4] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 155405
-2021-02-25 09:38:34.020  INFO 10936 --- [task-3] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 155410
-2021-02-25 09:44:37.840  INFO 10936 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 161751
-2021-02-25 09:46:44.015  INFO 10936 --- [task-2] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 161751
-2021-02-25 09:47:13.146  INFO 10936 --- [task-4] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 162157
-2021-02-25 09:47:15.683  INFO 10936 --- [task-3] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 162196
-2021-02-25 09:54:29.646  INFO 10936 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 169085
-2021-02-25 09:55:37.881  INFO 10936 --- [task-2] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 170146
-2021-02-25 09:55:51.263  INFO 10936 --- [task-4] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 170349
-2021-02-25 09:55:54.813  INFO 10936 --- [task-3] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 170407
-2021-02-25 10:07:11.321  INFO 10936 --- [task-2] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:07:11.401  INFO 10936 --- [task-2] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:07:35.335  INFO 10936 --- [task-3] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:07:35.466  INFO 10936 --- [task-3] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:07:42.522  INFO 10936 --- [task-4] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:07:42.590  INFO 10936 --- [task-4] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:11:41.307  INFO 10936 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:21:03.302  INFO 10936 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:21:03.383  INFO 10936 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 175103
-2021-02-25 10:21:03.402 ERROR 10936 --- [task-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.java.boot.billy.hnb.services.ReadHNB.getCrurrency()
-
-java.lang.NullPointerException: Cannot read the array length because "currency" is null
-	at com.java.boot.billy.hnb.services.ReadHNB.getGodinaPoGodina(ReadHNB.java:92) ~[classes/:na]
-	at com.java.boot.billy.hnb.services.ReadHNB.getCrurrency(ReadHNB.java:39) ~[classes/:na]
-	at com.java.boot.billy.hnb.services.ReadHNB$$FastClassBySpringCGLIB$$cd8ca4a1.invoke(<generated>) ~[classes/:na]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.3.jar:5.3.3]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
-
-2021-02-25 13:03:35.521  INFO 18004 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 18004 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-02-25 13:03:35.525  INFO 18004 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-02-25 13:03:37.550  INFO 18004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-25 13:03:37.551  INFO 18004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-25 13:03:37.769  INFO 18004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-25 13:03:38.046  INFO 18004 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-25 13:03:38.120  INFO 18004 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-25 13:03:38.291  INFO 18004 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-25 13:03:38.438  INFO 18004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-25 13:03:38.709  INFO 18004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-25 13:03:38.742  INFO 18004 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-02-25 13:03:40.181  INFO 18004 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-25 13:03:42.448  INFO 18004 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.58 seconds (JVM running for 9.151)
-2021-02-25 13:03:48.261  INFO 18004 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-25 13:03:53.658  INFO 18004 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 853
-2021-02-25 13:10:11.437  INFO 18004 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 42876
-2021-02-25 13:13:25.032  INFO 7156 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 7156 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-02-25 13:13:25.038  INFO 7156 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-02-25 13:13:27.237  INFO 7156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-25 13:13:27.238  INFO 7156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-25 13:13:27.460  INFO 7156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-25 13:13:27.731  INFO 7156 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-25 13:13:27.806  INFO 7156 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-25 13:13:27.992  INFO 7156 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-25 13:13:28.163  INFO 7156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-25 13:13:28.442  INFO 7156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-25 13:13:28.478  INFO 7156 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-02-25 13:13:30.029  INFO 7156 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-25 13:13:32.279  INFO 7156 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.98 seconds (JVM running for 9.24)
-2021-02-25 13:13:32.330  INFO 7156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-25 13:15:05.718  INFO 7156 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 58220
-2021-02-25 13:17:43.901  INFO 6216 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 6216 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-02-25 13:17:43.906  INFO 6216 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-02-25 13:17:45.881  INFO 6216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-25 13:17:45.882  INFO 6216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-25 13:17:46.099  INFO 6216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-25 13:17:46.372  INFO 6216 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-25 13:17:46.444  INFO 6216 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-25 13:17:46.628  INFO 6216 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-25 13:17:46.783  INFO 6216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-25 13:17:47.084  INFO 6216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-25 13:17:47.121  INFO 6216 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-02-25 13:17:48.557  INFO 6216 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-25 13:17:50.817  INFO 6216 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.538 seconds (JVM running for 8.808)
-2021-02-25 13:18:00.043  INFO 6216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-25 13:18:00.234  WARN 6216 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42P01
-2021-02-25 13:18:00.234 ERROR 6216 --- [task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: relation "currencies" does not exist
-  Position: 28
-2021-02-25 13:18:00.261 ERROR 6216 --- [task-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.java.boot.billy.hnb.services.ReadHNB.getCrurrency()
-
-org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
-	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:259) ~[spring-orm-5.3.3.jar:5.3.3]
-	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233) ~[spring-orm-5.3.3.jar:5.3.3]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551) ~[spring-orm-5.3.3.jar:5.3.3]
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.3.jar:5.3.3]
-	at com.sun.proxy.$Proxy86.getLast(Unknown Source) ~[na:na]
-	at com.java.boot.billy.hnb.services.ReadHNB.getGodinaPoGodina(ReadHNB.java:47) ~[classes/:na]
-	at com.java.boot.billy.hnb.services.ReadHNB.getCrurrency(ReadHNB.java:40) ~[classes/:na]
-	at com.java.boot.billy.hnb.services.ReadHNB$$FastClassBySpringCGLIB$$cd8ca4a1.invoke(<generated>) ~[classes/:na]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.3.jar:5.3.3]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
-Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:103) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.getResultSet(Loader.java:2304) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2057) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2019) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.doQuery(Loader.java:948) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2850) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2832) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2664) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.list(Loader.java:2659) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2141) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1163) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:176) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1593) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1641) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406) ~[spring-orm-5.3.3.jar:5.3.3]
-	at com.sun.proxy.$Proxy107.getSingleResult(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:196) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.4.3.jar:2.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.4.3.jar:2.4.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152) ~[spring-data-commons-2.4.3.jar:2.4.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131) ~[spring-data-commons-2.4.3.jar:2.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.3.jar:5.3.3]
-	... 19 common frames omitted
-Caused by: org.postgresql.util.PSQLException: ERROR: relation "currencies" does not exist
-  Position: 28
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114) ~[postgresql-42.2.18.jar:42.2.18]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-3.4.5.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	... 54 common frames omitted
-
-2021-02-25 13:18:02.006  WARN 6216 --- [scheduling-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42P01
-2021-02-25 13:18:02.007 ERROR 6216 --- [scheduling-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: relation "currencies" does not exist
-  Position: 15
-2021-02-25 13:18:02.009 ERROR 6216 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
-
-org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
-	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:259) ~[spring-orm-5.3.3.jar:5.3.3]
-	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233) ~[spring-orm-5.3.3.jar:5.3.3]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551) ~[spring-orm-5.3.3.jar:5.3.3]
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.3.jar:5.3.3]
-	at com.sun.proxy.$Proxy86.getCurrency(Unknown Source) ~[na:na]
-	at com.java.boot.billy.hnb.services.MyService.updateCurrencies(MyService.java:47) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.3.jar:5.3.3]
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.3.jar:5.3.3]
-	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.3.jar:5.3.3]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
-Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:103) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.getResultSet(Loader.java:2304) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2057) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2019) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.doQuery(Loader.java:948) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2850) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.doList(Loader.java:2832) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2664) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.Loader.list(Loader.java:2659) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2141) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1163) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:176) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1593) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1641) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406) ~[spring-orm-5.3.3.jar:5.3.3]
-	at com.sun.proxy.$Proxy107.getSingleResult(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:196) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143) ~[spring-data-jpa-2.4.3.jar:2.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.4.3.jar:2.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.4.3.jar:2.4.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152) ~[spring-data-commons-2.4.3.jar:2.4.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131) ~[spring-data-commons-2.4.3.jar:2.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.3.jar:5.3.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.3.jar:5.3.3]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.3.jar:5.3.3]
-	... 21 common frames omitted
-Caused by: org.postgresql.util.PSQLException: ERROR: relation "currencies" does not exist
-  Position: 15
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164) ~[postgresql-42.2.18.jar:42.2.18]
-	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114) ~[postgresql-42.2.18.jar:42.2.18]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-3.4.5.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.4.27.Final.jar:5.4.27.Final]
-	... 56 common frames omitted
-
-2021-02-25 13:18:12.102  INFO 11792 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 11792 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-02-25 13:18:12.109  INFO 11792 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-02-25 13:18:14.049  INFO 11792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-25 13:18:14.050  INFO 11792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-25 13:18:14.252  INFO 11792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-25 13:18:14.503  INFO 11792 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-25 13:18:14.575  INFO 11792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-25 13:18:14.752  INFO 11792 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-25 13:18:14.902  INFO 11792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-25 13:18:15.177  INFO 11792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-25 13:18:15.213  INFO 11792 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-02-25 13:18:16.617  INFO 11792 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-25 13:18:18.669  INFO 11792 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.207 seconds (JVM running for 8.923)
-2021-02-25 13:18:23.736  INFO 11792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-25 13:18:28.030  INFO 11792 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 853
-2021-02-25 13:19:33.313  INFO 19884 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 19884 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-02-25 13:19:33.317  INFO 19884 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-02-25 13:19:35.315  INFO 19884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-25 13:19:35.316  INFO 19884 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-25 13:19:35.540  INFO 19884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-25 13:19:35.807  INFO 19884 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-25 13:19:35.881  INFO 19884 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-25 13:19:36.054  INFO 19884 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-25 13:19:36.203  INFO 19884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-25 13:19:36.474  INFO 19884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-25 13:19:36.509  INFO 19884 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-02-25 13:19:37.909  INFO 19884 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-25 13:19:39.928  INFO 19884 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.281 seconds (JVM running for 8.476)
-2021-02-25 13:20:00.028  INFO 19884 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-25 13:20:06.568  INFO 19884 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 853
-2021-02-25 13:24:52.102  INFO 5928 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 5928 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-02-25 13:24:52.102  INFO 5928 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-02-25 13:24:54.421  INFO 5928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-25 13:24:54.422  INFO 5928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-25 13:24:54.718  INFO 5928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-25 13:24:54.997  INFO 5928 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-25 13:24:55.075  INFO 5928 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-25 13:24:55.257  INFO 5928 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-25 13:24:55.417  INFO 5928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-25 13:24:55.709  INFO 5928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-25 13:24:55.745  INFO 5928 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-02-25 13:24:57.183  INFO 5928 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-25 13:24:59.985  INFO 5928 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 8.509 seconds (JVM running for 9.725)
-2021-02-25 13:25:07.676  INFO 14292 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 14292 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-02-25 13:25:07.681  INFO 14292 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-02-25 13:25:09.677  INFO 14292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-25 13:25:09.678  INFO 14292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-25 13:25:09.901  INFO 14292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-25 13:25:10.163  INFO 14292 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-25 13:25:10.235  INFO 14292 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-25 13:25:10.409  INFO 14292 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-25 13:25:10.561  INFO 14292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-25 13:25:10.825  INFO 14292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-25 13:25:10.860  INFO 14292 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-02-25 13:25:12.252  INFO 14292 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-25 13:25:14.408  INFO 14292 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.397 seconds (JVM running for 8.6)
-2021-02-25 13:25:29.356  INFO 14292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-25 13:25:33.353  INFO 14292 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 853
-2021-02-25 13:31:36.559  INFO 14292 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 42876
-2021-02-25 13:37:31.325  INFO 14292 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 63330
-2021-02-25 13:43:58.093  INFO 14292 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 80137
-2021-02-25 13:51:41.142  INFO 14292 --- [task-1] c.java.boot.billy.hnb.services.ReadHNB   : Broj zapisa: 97673
+2021-03-01 09:59:13.628  INFO 2820 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 2820 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-01 09:59:13.638  INFO 2820 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-01 09:59:15.904  INFO 2820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 09:59:15.905  INFO 2820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-01 09:59:16.135  INFO 2820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 09:59:16.420  INFO 2820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 09:59:16.539  INFO 2820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-01 09:59:16.785  INFO 2820 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 09:59:16.968  INFO 2820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-01 09:59:17.311  INFO 2820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-01 09:59:17.355  INFO 2820 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-01 09:59:19.080  INFO 2820 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 09:59:21.568  INFO 2820 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 8.71 seconds (JVM running for 10.188)
+2021-03-01 09:59:42.182  INFO 2820 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 10:02:28.393  INFO 5384 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 5384 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-01 10:02:28.408  INFO 5384 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-01 10:02:30.408  INFO 5384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 10:02:30.409  INFO 5384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-01 10:02:30.643  INFO 5384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 10:02:30.907  INFO 5384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 10:02:30.981  INFO 5384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-01 10:02:31.208  INFO 5384 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 10:02:31.377  INFO 5384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-01 10:02:31.681  INFO 5384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-01 10:02:31.716  INFO 5384 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-01 10:02:33.120  INFO 5384 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 10:02:35.221  INFO 5384 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.496 seconds (JVM running for 8.734)
+2021-03-01 10:02:37.269  INFO 5384 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 10:03:20.595  INFO 16948 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 16948 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-01 10:03:20.603  INFO 16948 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-01 10:03:22.695  INFO 16948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 10:03:22.696  INFO 16948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-01 10:03:22.911  INFO 16948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 10:03:23.170  INFO 16948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 10:03:23.245  INFO 16948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-01 10:03:23.422  INFO 16948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 10:03:23.573  INFO 16948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-01 10:03:23.838  INFO 16948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-01 10:03:23.881  INFO 16948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-01 10:03:25.291  INFO 16948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 10:03:27.649  INFO 16948 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.738 seconds (JVM running for 9.017)
+2021-03-01 10:03:29.858  INFO 16948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 10:05:05.473  INFO 16172 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 16172 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-01 10:05:05.478  INFO 16172 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-01 10:05:07.609  INFO 16172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 10:05:07.610  INFO 16172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-01 10:05:07.833  INFO 16172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 10:05:08.105  INFO 16172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 10:05:08.200  INFO 16172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-01 10:05:08.368  INFO 16172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 10:05:08.537  INFO 16172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-01 10:05:08.806  INFO 16172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-01 10:05:08.838  INFO 16172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-01 10:05:10.370  INFO 16172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 10:05:12.734  INFO 16172 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 8.033 seconds (JVM running for 9.438)
+2021-03-01 10:05:19.614  INFO 16172 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 10:06:33.466  INFO 4896 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 4896 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-01 10:06:33.472  INFO 4896 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-01 10:06:35.519  INFO 4896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 10:06:35.519  INFO 4896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-01 10:06:35.741  INFO 4896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 10:06:36.010  INFO 4896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 10:06:36.085  INFO 4896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-01 10:06:36.258  INFO 4896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 10:06:36.421  INFO 4896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-01 10:06:36.699  INFO 4896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-01 10:06:36.736  INFO 4896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-01 10:06:38.113  INFO 4896 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 10:06:40.234  INFO 4896 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.499 seconds (JVM running for 8.774)
+2021-03-01 10:06:40.927  INFO 4896 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 10:07:12.954  INFO 15668 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 15668 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-01 10:07:12.958  INFO 15668 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-01 10:07:15.014  INFO 15668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 10:07:15.014  INFO 15668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-01 10:07:15.233  INFO 15668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 10:07:15.511  INFO 15668 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 10:07:15.589  INFO 15668 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-01 10:07:15.765  INFO 15668 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 10:07:15.942  INFO 15668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-01 10:07:16.212  INFO 15668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-01 10:07:16.243  INFO 15668 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-01 10:07:17.632  INFO 15668 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 10:07:19.858  INFO 15668 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.581 seconds (JVM running for 8.82)
+2021-03-01 10:07:30.413  INFO 15668 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
