@@ -1,84 +1,112 @@
-2021-03-01 09:59:13.628  INFO 2820 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 2820 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-03-01 09:59:13.638  INFO 2820 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-03-01 09:59:15.904  INFO 2820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-03-01 09:59:15.905  INFO 2820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-01 09:59:16.135  INFO 2820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-03-01 09:59:16.420  INFO 2820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-03-01 09:59:16.539  INFO 2820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-03-01 09:59:16.785  INFO 2820 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-03-01 09:59:16.968  INFO 2820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-03-01 09:59:17.311  INFO 2820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-03-01 09:59:17.355  INFO 2820 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-03-01 09:59:19.080  INFO 2820 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-03-01 09:59:21.568  INFO 2820 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 8.71 seconds (JVM running for 10.188)
-2021-03-01 09:59:42.182  INFO 2820 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-01 10:02:28.393  INFO 5384 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 5384 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-03-01 10:02:28.408  INFO 5384 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-03-01 10:02:30.408  INFO 5384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-03-01 10:02:30.409  INFO 5384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-01 10:02:30.643  INFO 5384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-03-01 10:02:30.907  INFO 5384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-03-01 10:02:30.981  INFO 5384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-03-01 10:02:31.208  INFO 5384 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-03-01 10:02:31.377  INFO 5384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-03-01 10:02:31.681  INFO 5384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-03-01 10:02:31.716  INFO 5384 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-03-01 10:02:33.120  INFO 5384 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-03-01 10:02:35.221  INFO 5384 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.496 seconds (JVM running for 8.734)
-2021-03-01 10:02:37.269  INFO 5384 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-01 10:03:20.595  INFO 16948 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 16948 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-03-01 10:03:20.603  INFO 16948 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-03-01 10:03:22.695  INFO 16948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-03-01 10:03:22.696  INFO 16948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-01 10:03:22.911  INFO 16948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-03-01 10:03:23.170  INFO 16948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-03-01 10:03:23.245  INFO 16948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-03-01 10:03:23.422  INFO 16948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-03-01 10:03:23.573  INFO 16948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-03-01 10:03:23.838  INFO 16948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-03-01 10:03:23.881  INFO 16948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-03-01 10:03:25.291  INFO 16948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-03-01 10:03:27.649  INFO 16948 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.738 seconds (JVM running for 9.017)
-2021-03-01 10:03:29.858  INFO 16948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-01 10:05:05.473  INFO 16172 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 16172 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-03-01 10:05:05.478  INFO 16172 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-03-01 10:05:07.609  INFO 16172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-03-01 10:05:07.610  INFO 16172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-01 10:05:07.833  INFO 16172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-03-01 10:05:08.105  INFO 16172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-03-01 10:05:08.200  INFO 16172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-03-01 10:05:08.368  INFO 16172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-03-01 10:05:08.537  INFO 16172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-03-01 10:05:08.806  INFO 16172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-03-01 10:05:08.838  INFO 16172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-03-01 10:05:10.370  INFO 16172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-03-01 10:05:12.734  INFO 16172 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 8.033 seconds (JVM running for 9.438)
-2021-03-01 10:05:19.614  INFO 16172 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-01 10:06:33.466  INFO 4896 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 4896 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-03-01 10:06:33.472  INFO 4896 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-03-01 10:06:35.519  INFO 4896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-03-01 10:06:35.519  INFO 4896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-01 10:06:35.741  INFO 4896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-03-01 10:06:36.010  INFO 4896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-03-01 10:06:36.085  INFO 4896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-03-01 10:06:36.258  INFO 4896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-03-01 10:06:36.421  INFO 4896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-03-01 10:06:36.699  INFO 4896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-03-01 10:06:36.736  INFO 4896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-03-01 10:06:38.113  INFO 4896 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-03-01 10:06:40.234  INFO 4896 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.499 seconds (JVM running for 8.774)
-2021-03-01 10:06:40.927  INFO 4896 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-01 10:07:12.954  INFO 15668 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 15668 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
-2021-03-01 10:07:12.958  INFO 15668 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
-2021-03-01 10:07:15.014  INFO 15668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-03-01 10:07:15.014  INFO 15668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-01 10:07:15.233  INFO 15668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-03-01 10:07:15.511  INFO 15668 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-03-01 10:07:15.589  INFO 15668 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-03-01 10:07:15.765  INFO 15668 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-03-01 10:07:15.942  INFO 15668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-03-01 10:07:16.212  INFO 15668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-03-01 10:07:16.243  INFO 15668 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-03-01 10:07:17.632  INFO 15668 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-03-01 10:07:19.858  INFO 15668 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.581 seconds (JVM running for 8.82)
-2021-03-01 10:07:30.413  INFO 15668 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 12:31:49.599  INFO 16472 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 16472 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-03 12:31:49.607  INFO 16472 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-03 12:31:51.955  INFO 16472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-03 12:31:51.955  INFO 16472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-03 12:31:52.156  INFO 16472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-03 12:31:52.448  INFO 16472 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 12:31:52.548  INFO 16472 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-03 12:31:52.780  INFO 16472 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 12:31:52.965  INFO 16472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-03 12:31:53.250  INFO 16472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-03 12:31:53.281  INFO 16472 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-03 12:31:54.863  INFO 16472 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 12:31:57.118  INFO 16472 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 8.247 seconds (JVM running for 9.685)
+2021-03-03 12:34:43.221  INFO 13272 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 13272 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-03 12:34:43.221  INFO 13272 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-03 12:34:45.248  INFO 13272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-03 12:34:45.248  INFO 13272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-03 12:34:45.468  INFO 13272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-03 12:34:45.728  INFO 13272 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 12:34:45.791  INFO 13272 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-03 12:34:45.976  INFO 13272 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 12:34:46.128  INFO 13272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-03 12:34:46.412  INFO 13272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-03 12:34:46.452  INFO 13272 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-03 12:34:47.842  INFO 13272 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 12:34:50.044  INFO 13272 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.446 seconds (JVM running for 8.689)
+2021-03-03 12:35:26.369  INFO 13272 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 12:41:53.550  INFO 12904 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 12904 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-03 12:41:53.550  INFO 12904 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-03 12:41:55.549  INFO 12904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-03 12:41:55.549  INFO 12904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-03 12:41:55.765  INFO 12904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-03 12:41:56.050  INFO 12904 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 12:41:56.119  INFO 12904 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-03 12:41:56.304  INFO 12904 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 12:41:56.456  INFO 12904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-03 12:41:56.729  INFO 12904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-03 12:41:56.760  INFO 12904 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-03 12:41:58.156  INFO 12904 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 12:42:00.180  INFO 12904 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.28 seconds (JVM running for 8.497)
+2021-03-03 12:42:44.580  INFO 12904 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 13:00:01.342  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: AUD
+2021-03-03 13:00:01.406  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: CAD
+2021-03-03 13:00:01.454  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: CZK
+2021-03-03 13:00:01.505  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: DKK
+2021-03-03 13:00:01.554  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: HUF
+2021-03-03 13:00:01.627  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: JPY
+2021-03-03 13:00:01.663  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: NOK
+2021-03-03 13:00:01.699  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: SEK
+2021-03-03 13:00:01.729  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: CHF
+2021-03-03 13:00:01.755  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: GBP
+2021-03-03 13:00:01.795  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: USD
+2021-03-03 13:00:01.826  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: BAM
+2021-03-03 13:00:01.889  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: EUR
+2021-03-03 13:00:01.927  INFO 12904 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Spremam: PLN
+2021-03-03 13:26:03.630  INFO 15504 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 15504 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-03 13:26:03.632  INFO 15504 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-03 13:26:05.595  INFO 15504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-03 13:26:05.595  INFO 15504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-03 13:26:05.818  INFO 15504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-03 13:26:06.072  INFO 15504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 13:26:06.150  INFO 15504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-03 13:26:06.320  INFO 15504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 13:26:06.478  INFO 15504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-03 13:26:06.753  INFO 15504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-03 13:26:06.785  INFO 15504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-03 13:26:08.154  INFO 15504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 13:26:10.217  INFO 15504 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.262 seconds (JVM running for 8.487)
+2021-03-03 13:26:21.579  INFO 15504 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 13:43:04.386  INFO 20812 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 20812 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-03 13:43:04.388  INFO 20812 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-03 13:43:06.476  INFO 20812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-03 13:43:06.484  INFO 20812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-03 13:43:06.703  INFO 20812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-03 13:43:07.009  INFO 20812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 13:43:07.129  INFO 20812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-03 13:43:07.305  INFO 20812 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 13:43:07.473  INFO 20812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-03 13:43:07.763  INFO 20812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-03 13:43:07.817  INFO 20812 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-03 13:43:09.250  INFO 20812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 13:43:11.335  INFO 20812 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.638 seconds (JVM running for 8.894)
+2021-03-03 13:43:15.168  INFO 20812 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 13:48:50.319  INFO 16204 --- [main] com.java.boot.billy.hnb.HnbApplication   : Starting HnbApplication using Java 15.0.1 on DESKTOP-DEKD631 with PID 16204 (C:\Users\bjungic\Desktop\spring-boot\hnb\target\classes started by bjungic in C:\Users\bjungic\Desktop\spring-boot\hnb)
+2021-03-03 13:48:50.329  INFO 16204 --- [main] com.java.boot.billy.hnb.HnbApplication   : No active profile set, falling back to default profiles: default
+2021-03-03 13:48:52.527  INFO 16204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-03 13:48:52.527  INFO 16204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-03 13:48:52.751  INFO 16204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-03 13:48:53.024  INFO 16204 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 13:48:53.091  INFO 16204 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-03 13:48:53.303  INFO 16204 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 13:48:53.496  INFO 16204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-03 13:48:53.774  INFO 16204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-03 13:48:53.805  INFO 16204 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-03 13:48:55.198  INFO 16204 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 13:48:57.305  INFO 16204 --- [main] com.java.boot.billy.hnb.HnbApplication   : Started HnbApplication in 7.805 seconds (JVM running for 9.01)
+2021-03-03 13:49:01.580  INFO 16204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 13:52:22.730  INFO 16204 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 236 ms
+2021-03-03 14:00:01.024  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: AUD
+2021-03-03 14:00:01.061  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: CAD
+2021-03-03 14:00:01.093  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: CZK
+2021-03-03 14:00:01.124  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: DKK
+2021-03-03 14:00:01.162  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: HUF
+2021-03-03 14:00:01.193  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: JPY
+2021-03-03 14:00:01.240  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: NOK
+2021-03-03 14:00:01.277  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: SEK
+2021-03-03 14:00:01.309  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: CHF
+2021-03-03 14:00:01.341  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: GBP
+2021-03-03 14:00:01.373  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: USD
+2021-03-03 14:00:01.405  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: BAM
+2021-03-03 14:00:01.445  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: EUR
+2021-03-03 14:00:01.480  INFO 16204 --- [scheduling-1] c.j.boot.billy.hnb.services.MyService    : Update: PLN

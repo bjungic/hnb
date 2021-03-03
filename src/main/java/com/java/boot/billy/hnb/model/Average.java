@@ -18,7 +18,7 @@ public class Average {
     public Average(Date datumOd, Date datumDo, String valuta, Double prosijek) {
         this.datumOd = datumOd;
         this.datumDo = datumDo;
-        this.valuta = valuta;
+        this.valuta = valuta.toUpperCase();
         this.prosijek = prosijek;
     }
 }

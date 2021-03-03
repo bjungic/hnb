@@ -37,7 +37,7 @@ public class Logika {
             Double temp = Double.parseDouble(s.replace(",", "."));
             srednjaVrijednost = srednjaVrijednost + temp;
         }
-        srednjaVrijednost = srednjaVrijednost * 1000000 / (vrijednost.size() * 1000000);
+        srednjaVrijednost = srednjaVrijednost / vrijednost.size();
         Average average = new Average(odDatum, doDatum, valuta, srednjaVrijednost);
         return average;
     }

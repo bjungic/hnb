@@ -41,7 +41,6 @@ public class HNBController {
 
     @GetMapping(path = "prosjecna_srednja_vrijednost", produces = "application/json")
     public Average getProsjecnaSrednjaVrijednost(@RequestBody Average average) {
-        System.out.println(average.getDatumDo());
         return logika.getProsjecnaSrednja(average.getValuta(), average.getDatumOd(), average.getDatumDo());
     }
 
